@@ -1112,23 +1112,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         console.log(data);
 
-        // Send data to Pabbly webhook
-        fetch('https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZjMDYzNjA0M2Q1MjZhNTUzMTUxMzUi_pc', {
+        // Send data to FormSubmit.co only
+        fetch('https://formsubmit.co/ajax/gargy5703@gmail.com', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
             },
             body: JSON.stringify(data)
         })
         .then(response => {
-            if (response.ok) {
-                console.log("Webhook data submitted successfully");
-                window.location.href = 'thankYou.html'; // Redirect
-            } else {
-                alert('There was an error submitting the form to the webhook.');
-                throw new Error('Webhook submission failed');
-            }
+            console.log("FormSubmit response:", response);
+            window.location.href = 'thankYou.html'; // Redirect to Thank You page
         })
+        .catch(err => {
+            console.error("FormSubmit Error:", err);
+            // Fallback redirect so user is not blocked
+            window.location.href = 'thankYou.html';
+        });
     }
 </script>
 
