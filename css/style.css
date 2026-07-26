@@ -148,7 +148,7 @@ section.header-section{width:100%;padding: 7px 0;z-index:9;transition:all .5s ea
 li.nav-item{display: flex;align-items: center;border-radius: 50px; margin: 0 5px;}
 a.navbar-call-btn{border: 1px solid #000;padding: 13px 15px; color:#000; border-radius: 40px;background:#eed26e;backdrop-filter:blur(10px);}
 a.navbar-call-btn:hover{color:#fff}
-.header-section img.project-logo{filter:brightness(0) invert(1);/* max-height: 40px; */}
+.header-section img.project-logo{/* max-height: 40px; */}
 /* .fixed img.project-logo:last-child{
     filter: invert(1) !important;
 } */
@@ -183,7 +183,7 @@ ul.navbar-nav.mb-2.mb-lg-0.asidebar {
   color: white;
 }
 .banner-form-section{position:absolute;top:50%;right:13%;transform:translateY(-50%);background:rgba(12,19,15,0.84);border-radius:10px;outline:rgba(244,241,232,0.29) solid 2px;outline-offset:3px;width:18%}
-.banner-setion .banner .carousel-inner::after{content:"";position:absolute;width:100%;height:100%;top:0;left:0;background:#0000008c;background:linear-gradient(90deg,#0000008f 35%,transparent)}
+.banner-setion .banner .carousel-inner::after{content:"";position:absolute;width:100%;height:100%;top:0;left:0;}
 .banner-form-section .banner-form{margin:0;padding:30px 25px;border-radius:15px;width:100%}
 .banner-form-section .banner-form .form-group{margin:10px 0}
 .banner-form-section .banner-form .form-group input.form-control{padding:7px 10px;margin-bottom:10px;min-height:42px;background:none;border-width:1px;border-style:solid;border-color:transparent transparent #fff;border-image:initial;border-radius:0;color:#fff}
