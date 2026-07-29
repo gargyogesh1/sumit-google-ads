@@ -1148,6 +1148,9 @@
                 if (bsModal) bsModal.hide();
             }
             showSuccessToast();
+            setTimeout(() => {
+                window.location.href = '../thanku/index.html';
+            }, 2000);
         })
         .catch(() => {
             // Still show success — user experience first
@@ -1158,6 +1161,9 @@
                 if (bsModal) bsModal.hide();
             }
             showSuccessToast();
+            setTimeout(() => {
+                window.location.href = '../thanku/index.html';
+            }, 2000);
         })
         .finally(() => {
             submitBtn.disabled = false;
