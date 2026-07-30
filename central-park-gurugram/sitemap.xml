@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+          http://www.google.com/schemas/sitemap-image/1.1
+          http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!-- ============================================================ -->
+  <!--  CENTRAL PARK DELPHINE - SITEMAP                             -->
+  <!--  Website: https://bokenproperties.co.in/central-park-gurugram/               -->
+  <!--  Last Updated: 2025-07-30                                    -->
+  <!-- ============================================================ -->
+
+  <!-- ===== PAGE 1: Homepage - Central Park Delphine Sector 104 ===== -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-in" href="https://bokenproperties.co.in/central-park-gurugram/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bokenproperties.co.in/central-park-gurugram/"/>
+    <image:image>
+      <image:loc>https://bokenproperties.co.in/central-park-gurugram/images/image2/imgi_3_gallery10.webp</image:loc>
+      <image:title>Central Park Delphine Sector 104 Gurgaon - Ultra-Luxury Apartments</image:title>
+      <image:caption>Central Park Delphine - New Launch ultra-luxury residential project at Sector 104, Gurgaon on Dwarka Expressway</image:caption>
+      <image:geo_location>Sector 104, Gurgaon, Haryana, India</image:geo_location>
+      <image:license>https://bokenproperties.co.in/central-park-gurugram/</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://bokenproperties.co.in/central-park-gurugram/images/image2/project_1685186892584295412.avif</image:loc>
+      <image:title>Central Park Delphine G+39 Tower View - Luxury High Rise Gurgaon</image:title>
+      <image:caption>G+39 luxury residential towers at Central Park Delphine, Dwarka Expressway, Gurgaon</image:caption>
+      <image:geo_location>Sector 104, Gurgaon, Haryana, India</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== PAGE 2: Central Park Properties Gurugram ===== -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/central-park-gurugram/</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-in" href="https://bokenproperties.co.in/central-park-gurugram/central-park-gurugram/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bokenproperties.co.in/central-park-gurugram/central-park-gurugram/"/>
+    <image:image>
+      <image:loc>https://bokenproperties.co.in/central-park-gurugram/images/image2/imgi_3_gallery10.webp</image:loc>
+      <image:title>Central Park Properties Gurugram - All Luxury Projects in Gurgaon</image:title>
+      <image:caption>All Central Park luxury residential projects in Gurugram - Delphine, Flower Valley, Bellevue, Golf Course Road</image:caption>
+      <image:geo_location>Gurgaon, Haryana, India</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== PAGE 3: Privacy Policy ===== -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/privacy-policy.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <!-- ===== PAGE 4: Thank You / Confirmation Page ===== -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/thanku/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
+  </url>
+
+  <!-- ===== DEEP SECTION ANCHORS: Homepage ===== -->
+
+  <!-- Highlights Section -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/#highlights</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Features Section -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/#features</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Gallery Section -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/#gallery</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://bokenproperties.co.in/central-park-gurugram/images/image2/imgi_3_gallery10.webp</image:loc>
+      <image:title>Central Park Delphine Gallery - Luxury Apartment Images Sector 104 Gurgaon</image:title>
+    </image:image>
+  </url>
+
+  <!-- Amenities Section -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/#amenities</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Floor Price Section -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/#price</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Floor Plan Section -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/#master-and-floor-plan</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Location Advantage Section -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/#location-advantage</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Contact Us Section -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/#contact-us</loc>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+</urlset>
+
+
