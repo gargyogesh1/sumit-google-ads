@@ -1994,3 +1994,268 @@ section.features-section {
         font-size: 20px !important;
     }
 }
+
+/* Final responsive layout corrections */
+@media (min-width: 1200px) {
+    .header-section .container {
+        max-width: 1440px;
+    }
+
+    .header-section .navbar {
+        min-height: 72px;
+    }
+
+    .header-section .navbar-brand {
+        flex: 0 0 auto;
+    }
+
+    .header-section .project-logo {
+        max-width: 145px;
+        width: auto !important;
+        height: 56px !important;
+        object-fit: contain;
+    }
+
+    .header-section .navbar-collapse {
+        flex: 1 1 auto;
+    }
+
+    .header-section ul.navbar-nav {
+        height: auto;
+        width: 100%;
+        padding: 0 10px;
+        flex-wrap: nowrap;
+    }
+
+    .header-section li.nav-item {
+        margin: 0 1px;
+    }
+
+    .header-section .nav-item .nav-link {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        padding-right: 7px !important;
+        padding-left: 7px !important;
+        white-space: nowrap;
+    }
+
+    .header-section .navbar-call-btn {
+        white-space: nowrap;
+        font-size: 13px;
+        padding: 9px 10px;
+    }
+
+    .banner-setion .carousel-item > img {
+        width: 100%;
+        height: min(78vh, 820px);
+        object-fit: cover;
+    }
+
+    .banner-setion .banner img.d-view {
+        display: block;
+    }
+
+    .banner-setion .banner img.m-view {
+        display: none;
+    }
+
+    .banner-setion .banner .carousel-inner {
+        background: #030f0a;
+    }
+
+    .project-details-ban {
+        max-height: calc(min(78vh, 820px) - 32px);
+        overflow: auto;
+    }
+
+    .banner-form-section {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .header-section .nav-item .nav-link {
+        font-size: 13px;
+        padding-right: 6px !important;
+        padding-left: 6px !important;
+    }
+
+    .project-details-ban {
+        width: min(42%, 480px) !important;
+        max-height: calc(78vh - 24px);
+        overflow: auto;
+    }
+
+    .banner-form-section {
+        right: 4%;
+        width: min(27%, 320px);
+        max-height: calc(78vh - 24px);
+        overflow: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        overflow-x: hidden !important;
+        padding-bottom: 42px;
+    }
+
+    .header-section {
+        position: relative !important;
+        padding: 4px 0;
+    }
+
+    .header-section .navbar {
+        min-height: 56px;
+    }
+
+    .header-section .container {
+        max-width: 100%;
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .header-section .project-logo {
+        max-width: 142px;
+        width: auto !important;
+        height: 48px !important;
+        object-fit: contain;
+    }
+
+    .header-section .navbar-toggler {
+        padding: 6px 8px;
+        border-color: rgba(255, 255, 255, 0.55);
+    }
+
+    .header-section .navbar-collapse {
+        margin-top: 8px;
+        padding: 8px 0 4px;
+        border-top: 1px solid rgba(229, 196, 131, 0.2);
+    }
+
+    .header-section ul.navbar-nav {
+        height: auto;
+        align-items: stretch;
+        padding: 0;
+    }
+
+    .header-section li.nav-item {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .header-section .nav-item .nav-link {
+        padding: 9px 4px !important;
+        font-size: 14px;
+    }
+
+    .banner-setion .banner-container {
+        margin-bottom: 0;
+    }
+
+    .banner-setion .carousel-item > img {
+        width: 100%;
+        height: clamp(240px, 58vw, 360px);
+        object-fit: cover;
+    }
+
+    .banner-setion .banner img.d-view {
+        display: none;
+    }
+
+    .banner-setion .banner img.m-view {
+        display: block;
+    }
+
+    .project-details-ban {
+        min-height: 0;
+        max-height: none;
+        overflow: visible;
+        padding: 22px 16px 20px !important;
+    }
+
+    .project-details-ban h1#projectName {
+        font-size: clamp(30px, 9vw, 38px) !important;
+        line-height: 1.08 !important;
+    }
+
+    .project-details-ban > p {
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+    }
+
+    .pdb-location {
+        align-items: flex-start;
+        font-size: 12px;
+        line-height: 1.45;
+        margin-bottom: 12px;
+    }
+
+    .pdb-price-row {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .pdb-price-chip {
+        min-width: 0;
+        padding: 9px 10px;
+    }
+
+    .pdb-price-value {
+        font-size: 16px;
+    }
+
+    .banner-form-section {
+        position: relative;
+        top: auto;
+        right: auto;
+        transform: none;
+        width: calc(100% - 32px);
+        max-width: 420px;
+        margin: 16px auto 0;
+        overflow: visible;
+    }
+
+    .banner-form-section .banner-form {
+        padding: 22px 18px;
+    }
+
+    .banner-form-section .form-bottom .form_title {
+        font-size: 22px !important;
+    }
+
+    .mobile-section {
+        min-height: 42px;
+        padding: 9px 5px;
+    }
+
+    .mobile-section a {
+        font-size: 13px;
+        line-height: 1.2;
+    }
+
+    .section-head-para {
+        font-size: clamp(25px, 7vw, 34px) !important;
+        line-height: 1.15;
+    }
+
+    .floor-plan-section .floor-tab-head {
+        gap: 6px;
+        padding-right: 10px;
+        padding-left: 10px;
+        flex-wrap: wrap;
+    }
+
+    .floor-plan-section .floor-tab-head .nav-link {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .map-embed-container {
+        height: 260px !important;
+    }
+
+    #successToast {
+        bottom: 56px;
+    }
+}
