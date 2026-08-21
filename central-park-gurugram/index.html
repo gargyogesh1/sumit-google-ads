@@ -1493,6 +1493,10 @@
             body: JSON.stringify(data)
         })
         .then(() => {
+
+          gtag('event', 'conversion', {
+            'send_to': 'AW-18353196610/IKNoCMzat9gcEMKcvq9E'
+          });
             form.reset();
             // Close modal if inside one
             const modal = form.closest('.modal');
