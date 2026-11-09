@@ -1,6 +1,6 @@
 ﻿# ============================================================
-# robots.txt - Central Park Delphine
-# https://bokenproperties.co.in/central-park-gurugram/
+# robots.txt - SKYLO by Central Park | Boken Properties
+# https://bokenproperties.co.in/
 # ============================================================
 
 # Allow all search engine crawlers
@@ -21,22 +21,19 @@ User-agent: Bingbot
 Allow: /
 Disallow: /thanku/
 
-# Facebook crawler
+# Social media and preview crawlers
 User-agent: facebookexternalhit
 Allow: /
 
-# Twitter/X crawler
 User-agent: Twitterbot
 Allow: /
 
-# WhatsApp preview crawler
 User-agent: WhatsApp
 Allow: /
 
-# LinkedIn crawler
 User-agent: LinkedInBot
 Allow: /
 
-# Sitemap Location
+# XML Sitemaps
+Sitemap: https://bokenproperties.co.in/sitemap.xml
 Sitemap: https://bokenproperties.co.in/central-park-gurugram/sitemap.xml
-

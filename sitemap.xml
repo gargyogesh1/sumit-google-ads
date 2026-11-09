@@ -11,45 +11,69 @@
   <!-- ============================================================ -->
   <!--  BOKEN PROPERTIES - XML SITEMAP                              -->
   <!--  Website: https://bokenproperties.co.in/                     -->
-  <!--  Last Updated: 2026-08-20                                    -->
+  <!--  Primary Project: SKYLO by Central Park                      -->
   <!-- ============================================================ -->
 
-  <!-- ===== Homepage ===== -->
+  <!-- ===== Main Homepage / SKYLO Landing Page ===== -->
   <url>
     <loc>https://bokenproperties.co.in/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://bokenproperties.co.in/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bokenproperties.co.in/"/>
     <image:image>
       <image:loc>https://bokenproperties.co.in/images/image2/imgi_3_gallery10.webp</image:loc>
-      <image:title>Luxury Apartments in Gurugram - Boken Properties</image:title>
-      <image:caption>Independent property consultants offering site visits, price assistance and luxury residential guidance in Gurugram.</image:caption>
+      <image:title>SKYLO by Central Park - Luxury Residences in South Gurugram</image:title>
+      <image:caption>Ultra-luxury Aravalli-facing and golf-facing 3 and 4 BHK residences starting at 3.30 Cr.</image:caption>
       <image:geo_location>Gurugram, Haryana, India</image:geo_location>
     </image:image>
   </url>
 
-  <!-- ===== About Page (/about.html) ===== -->
+  <!-- ===== SKYLO Project Overview ===== -->
+  <url>
+    <loc>https://bokenproperties.co.in/skylo-overview.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- ===== SKYLO Pricing and Inventory ===== -->
+  <url>
+    <loc>https://bokenproperties.co.in/skylo-pricing.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- ===== SKYLO Location and Connectivity ===== -->
+  <url>
+    <loc>https://bokenproperties.co.in/skylo-location.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- ===== Central Park Gurugram Sub-Directory Landing ===== -->
+  <url>
+    <loc>https://bokenproperties.co.in/central-park-gurugram/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ===== About Page ===== -->
   <url>
     <loc>https://bokenproperties.co.in/about.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
 
-  <!-- ===== About Us Page (/about-us.html) ===== -->
-  <url>
-    <loc>https://bokenproperties.co.in/about-us.html</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <!-- ===== Contact Us Page (/contact-us.html) ===== -->
+  <!-- ===== Contact Page ===== -->
   <url>
     <loc>https://bokenproperties.co.in/contact-us.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -57,7 +81,7 @@
   <!-- ===== Privacy Policy ===== -->
   <url>
     <loc>https://bokenproperties.co.in/privacy-policy.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -65,17 +89,9 @@
   <!-- ===== Terms & Conditions ===== -->
   <url>
     <loc>https://bokenproperties.co.in/terms-and-conditions.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
-  </url>
-
-  <!-- ===== Central Park Gurugram Sub-Directory ===== -->
-  <url>
-    <loc>https://bokenproperties.co.in/central-park-gurugram/</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
   </url>
 
 </urlset>
